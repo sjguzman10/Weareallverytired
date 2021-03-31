@@ -3,7 +3,7 @@ package com.class15;
 public class UpperLowerCase {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Upper and Lower Case manipulation 
 		
 		String var1="Hello";
 		System.out.println(var1.toLowerCase());

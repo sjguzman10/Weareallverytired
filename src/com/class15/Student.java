@@ -1,22 +1,25 @@
 package com.class15;
 
 public class Student {
+	
+	//how we create the classes
 
 	String name;
 	int age;
-	String studentId;
+	String studentID;
 	String schoolName;
-	void study () {
+	
+	void study() {
 		
-		System.out.println(name + " studies in " + schoolName);
+		System.out.println(name + " studies in " +schoolName);
 	}
 	
 	void payTuition() {
 		System.out.println(name + " pays the tuition");
 	}
 	
-	int getStudentAge() {
+	int getStudentAge () {
 		return age;
 	}
-
+	
 }
