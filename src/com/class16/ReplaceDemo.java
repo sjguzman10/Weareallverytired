@@ -3,7 +3,8 @@ package com.class16;
 public class ReplaceDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Replace come of the variables from the String
+		//old char with new char 
 		
 		String var1="Hello";
 		var1=var1.replace('e','a'); //we can replace characters

@@ -2,7 +2,7 @@ package com.class17;
 
 public class StaticVarDemo {
 	
-	static String msg="Please don't fight";
+	static String msg="Please don't fight"; //static variable can be used here 
 	
 	void printInfo() {
 		
@@ -10,7 +10,7 @@ public class StaticVarDemo {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(msg);
+		System.out.println(msg); //AND static variable can be used here 
 
 	}
 
